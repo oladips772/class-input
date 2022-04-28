@@ -1,0 +1,74 @@
+/* * @format
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #e6eeff;
+  color: black;
+  height: 100vh;
+}
+
+.input_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  padding: 20px;
+  border-radius: 5px;
+  background: white;
+  height: 300px;
+}
+
+.input_wrapper h2 {
+  color: #2662ff;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.input_wrapper p {
+  color: #a1b3d2;
+}
+
+.input_container {
+  margin-top: 20px;
+}
+
+.input_container .input_house {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.input_house input {
+  height: 30px;
+  width: 350px;
+  outline: none;
+  padding: 5px;
+  border: none;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.input_house i {
+  margin-left: 10px;
+  color: #2662ff;
+}
+
+.input_wrapper button {
+  width: 380px;
+  height: 35px;
+  margin-top: 8px;
+} */

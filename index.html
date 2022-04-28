@@ -1,0 +1,42 @@
+<!-- @format -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6fc9b697e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>css quiz -app</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- html body that wraps what we see -->
+  <body>
+    <!-- this div  below with a class of "input_wrapper" is responsible for holding everything we see in the white background so apply a background color of white to this div and the neccessary stylings also -->
+    <div class="input_wrapper">
+      <!-- the h2 and the p tags just have simple styling , change the color and the font weight -->
+      <h2>Welcome back</h2>
+      <p>Enter your credentials to access your account</p>
+      <!-- this input_container div needs a space from the top of the h2 and the p tags ,apply the neccessary margin styling to it-->
+      <div class="input_container">
+        <!-- this input_house div is holidng both the input and the icon , apply a flex styling to it , and make all the elements in it aligned to the center  -->
+        <div class="input_house">
+          <!-- change the color of the icon and give it a space from the right and left side with the neccessary margins -->
+          <i class="fas fa-envelope"></i>
+          <!-- this input requires styles of no border and no outline -->
+          <input type="text" placeholder="Enter your Email" />
+        </div>
+        <!-- this input_house div is holidng both the input and the icon , apply a flex styling to it , and make all the elements in it aligned to the center  -->
+        <div class="input_house">
+          <!-- change the color of the icon and give it a space from the right and left side with the neccessary margins -->
+          <i class="fas fa-lock"></i>
+          <!-- this input_house div is holidng both the input and the icon , apply a flex styling to it , and make all the elements in it aligned to the center  -->
+          <input type="password" />
+        </div>
+      </div>
+      <!-- give the button the neccessary stylings -->
+      <button>Sign in</button>
+    </div>
+  </body>
+</html>
